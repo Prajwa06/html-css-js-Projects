@@ -9,11 +9,27 @@
 <body>
         <div class="container">
             <h1 class="heading">Rock Paper Scissors..!</h1>
-            <h3>Make Your Choice...</h3>
+            <h3 class="subHeading">Make Your Choice...</h3>
             <div class="imgContainer">
-                <img src="" alt="Rock">
-                <img src="" alt="Paper">
-                <img src="" alt="Scissors">
+                <img id="rock" class="img" src="rock.jpg" alt="Rock">
+                <img id="paper" class="img" src="paper.png" alt="Paper">
+                <img id="scissor" class="img" src="scissor.jpeg" alt="Scissors">
+            </div>
+
+            <div class="result">
+                <div class="innerResult">
+                    <h3 id="yourChoice"></h3>
+                    <h3 id="compChoice"></h3>
+                </div>
+                <div>
+                    <h3 id="result"></h3>
+                </div>
+
+            </div>
+
+            <div class="scoreBoard">
+                <h3 id="yourPoints" class="yourPoints">Your Points: </h3>
+                <h3 id="compPoints" class="compPoints">Computer Points: </h3>
             </div>
         </div>
 
