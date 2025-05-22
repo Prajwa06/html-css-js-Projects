@@ -9,12 +9,12 @@ items.forEach((item) => {
     items.forEach((otherItem) => {
       if (otherItem !== item) {
         otherItem.querySelector('.sidebar-submenu-category-list')?.classList.remove('visible');
-        otherItem.classList.remove('active');
+       
       }
     });
 
     // Then toggle the clicked one
     submenu.classList.toggle('visible');
-    item.classList.toggle('active');
+   
   });
 });
